@@ -19,7 +19,7 @@
     - [12. Fetch Object by Filename](#12-fetch-object-by-filename)
 3. [File Structure](#file-structure)
 4. Support Video (Explain APIs and it's responses)
-[Link Text](https://drive.google.com/file/d/1IQtaXIlOm3P8RJgRWGPw2wvQuXZYa9vT/view?usp=sharing)
+[Click here to open Video](https://drive.google.com/file/d/1IQtaXIlOm3P8RJgRWGPw2wvQuXZYa9vT/view?usp=sharing)
 
 ## Getting Started
 
@@ -161,5 +161,4 @@ The project has the following structure:
 - `routes`: Contains the API routes and controllers.
 
 ## Support Video (Explain APIs and it's responses)
-
-[Link Text](https://drive.google.com/file/d/1IQtaXIlOm3P8RJgRWGPw2wvQuXZYa9vT/view?usp=sharing)
+[https://drive.google.com/file/d/1IQtaXIlOm3P8RJgRWGPw2wvQuXZYa9vT/view?usp=sharing](https://drive.google.com/file/d/1IQtaXIlOm3P8RJgRWGPw2wvQuXZYa9vT/view?usp=sharing)
