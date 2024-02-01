@@ -44,6 +44,7 @@ router.post("/upload/:bucketId", upload.any(), async (req, res) => {
       });
     }
 
+    let result = [];
     const currentDomain = `${req.protocol}://${req.get("host")}`;
     const createDoc = req.files.map((item) => {
       let payload = {
@@ -56,6 +57,7 @@ router.post("/upload/:bucketId", upload.any(), async (req, res) => {
         isFolder: false,
         parentId: bucketId,
       };
+      result.push(`${currentDomain}/fetch/${item?.filename}`);
 
       return payload;
     });
@@ -64,6 +66,7 @@ router.post("/upload/:bucketId", upload.any(), async (req, res) => {
     return res.status(200).json({
       status: true,
       message: "Files uploaded sucessfully",
+      data: result
     });
   } catch (error) {
     ERROR_RESPONSE(res, error);
